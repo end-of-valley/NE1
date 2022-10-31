@@ -31,7 +31,7 @@ jobs:
           state=$( echo $line | cut -d',' -f11 )
           type=$( echo $line | cut -d',' -f14 )
           case $state in
-            Connecticut|Maine|Massachusetts|New Hampshire|Rhode Island|Vermont) #list of states
+            Connecticut|Maine|Massachusetts|'New Hampshire'|'Rhode Island'|Vermont) #list of states
             case $type in
               wind|solar) #list of fuel type
               echo $line
