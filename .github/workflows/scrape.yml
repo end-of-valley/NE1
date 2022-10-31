@@ -17,7 +17,7 @@ jobs:
     - name: Fetch latest data
       run: |-
         export LC_NUMERIC="en_US.UTF-8"
-        File="uswtdb_v5_2_20221012.csv"
+        File="Power_Plants_in_the_U.S..csv"
         mkdir -p forecastGridData
         rm -f forecastGridData/*
         mkdir -p observations
@@ -32,8 +32,8 @@ jobs:
           case $state in
             CT|ME|MA|NH|RI|VT) #list of states
             echo $line
-            long=$( echo $line | cut -d',' -f26 )
-            lat=$( echo $line | cut -d',' -f27)
+            long=$( echo $line | cut -d',' -f30 )
+            lat=$( echo $line | cut -d',' -f29)
             url=$(printf "https://api.weather.gov/points/%.4f,%.4f" $lat $long)
             echo $url
             info=$(curl $url -L)
