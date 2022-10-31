@@ -1,0 +1,64 @@
+#!/bin/bash
+
+name: Scrape latest data
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '* */1 * * *'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v2
+    - name: Fetch latest data
+      run: |-
+        export LC_NUMERIC="en_US.UTF-8"
+        File="uswtdb_v5_2_20221012.csv"
+        mkdir -p forecastGridData
+        rm -f forecastGridData/*
+        mkdir -p observations
+        rm -f observations/*
+        forfile="forecast.lst"
+        obsfile="obs.lst"
+        >$forfile
+        >$obsfile
+        cat $File| sed 1d | awk -F'"' -v OFS='' '{ for (i=2; i<=NF; i+=2) gsub(",", "", $i) } 1' |while read line
+        do
+          state=$( echo $line | cut -d',' -f6 )
+          case $state in
+            CT|ME|MA|NH|RI|VT) #list of states
+            echo $line
+            long=$( echo $line | cut -d',' -f26 )
+            lat=$( echo $line | cut -d',' -f27)
+            url=$(printf "https://api.weather.gov/points/%.4f,%.4f" $lat $long)
+            echo $url
+            info=$(curl $url -L)
+            urldata=$(echo $info | grep -zoP '(?<=forecastGridData\": \").*(?=\",\s\"obs)')
+            echo $urldata >> $forfile
+            urlobs=$(echo $info | grep -zoP '(?<=observationStations\": \").*(?=\",\s\"rela)')
+            obs=$(curl $urlobs -L)
+            station=$(echo $obs | grep -Po 'observationStations\": \[ "\K[^"]*')
+            echo ${station}"/observations/latest">> $obsfile
+          ;;
+          esac
+        done
+        uniq $forfile "F${forfile}"
+        for i in $(cat "F${forfile}"); do
+          curl --retry 5 --retry-max-time 120 $i -L > "forecastGridData/$(date +%s%N).json"
+        done
+        uniq $obsfile "F${obsfile}"
+        for i in $(cat "F${obsfile}"); do
+         curl --retry 5 --retry-max-time 120 $i -L > "observations/$(date +%s%N).json"
+        done
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u --rfc-3339=seconds)
+        git commit -m "Latest data (UTC): ${timestamp}" || exit 0
+        git push
