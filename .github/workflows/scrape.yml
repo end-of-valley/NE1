@@ -28,21 +28,25 @@ jobs:
         >$obsfile
         cat $File| sed 1d | awk -F'"' -v OFS='' '{ for (i=2; i<=NF; i+=2) gsub(",", "", $i) } 1' |while read line
         do
-          state=$( echo $line | cut -d',' -f6 )
+          state=$( echo $line | cut -d',' -f11 )
+          type=$( echo $line | cut -d',' -f14 )
           case $state in
-            CT|ME|MA|NH|RI|VT) #list of states
-            echo $line
-            long=$( echo $line | cut -d',' -f30 )
-            lat=$( echo $line | cut -d',' -f29)
-            url=$(printf "https://api.weather.gov/points/%.4f,%.4f" $lat $long)
-            echo $url
-            info=$(curl $url -L)
-            urldata=$(echo $info | grep -zoP '(?<=forecastGridData\": \").*(?=\",\s\"obs)')
-            echo $urldata >> $forfile
-            urlobs=$(echo $info | grep -zoP '(?<=observationStations\": \").*(?=\",\s\"rela)')
-            obs=$(curl $urlobs -L)
-            station=$(echo $obs | grep -Po 'observationStations\": \[ "\K[^"]*')
-            echo ${station}"/observations/latest">> $obsfile
+            Connecticut|Maine|Massachusetts|New Hampshire|Rhode Island|Vermont) #list of states
+            case $type in
+              wind|solar) #list of fuel type
+              echo $line
+              long=$( echo $line | cut -d',' -f30 )
+              lat=$( echo $line | cut -d',' -f29)
+              url=$(printf "https://api.weather.gov/points/%.4f,%.4f" $lat $long)
+              echo $url
+              info=$(curl $url -L)
+              urldata=$(echo $info | grep -zoP '(?<=forecastGridData\": \").*(?=\",\s\"obs)')
+              echo $urldata >> $forfile
+              urlobs=$(echo $info | grep -zoP '(?<=observationStations\": \").*(?=\",\s\"rela)')
+              obs=$(curl $urlobs -L)
+              station=$(echo $obs | grep -Po 'observationStations\": \[ "\K[^"]*')
+              echo ${station}"/observations/latest">> $obsfile
+            ;;
           ;;
           esac
         done
