@@ -47,6 +47,7 @@ jobs:
               station=$(echo $obs | grep -Po 'observationStations\": \[ "\K[^"]*')
               echo ${station}"/observations/latest">> $obsfile
             ;;
+            esac
           ;;
           esac
         done
