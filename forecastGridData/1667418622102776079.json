@@ -1,32 +1,4 @@
 {
-    "correlationId": "175a163",
-    "title": "Unexpected Problem",
-    "type": "https://api.weather.gov/problems/UnexpectedProblem",
-    "status": 500,
-    "detail": "An unexpected problem has occurred.",
-    "instance": "https://api.weather.gov/requests/175a163"
-}{
-    "correlationId": "261957e",
-    "title": "Unexpected Problem",
-    "type": "https://api.weather.gov/problems/UnexpectedProblem",
-    "status": 500,
-    "detail": "An unexpected problem has occurred.",
-    "instance": "https://api.weather.gov/requests/261957e"
-}{
-    "correlationId": "2619a86",
-    "title": "Unexpected Problem",
-    "type": "https://api.weather.gov/problems/UnexpectedProblem",
-    "status": 500,
-    "detail": "An unexpected problem has occurred.",
-    "instance": "https://api.weather.gov/requests/2619a86"
-}{
-    "correlationId": "1f76d7b",
-    "title": "Unexpected Problem",
-    "type": "https://api.weather.gov/problems/UnexpectedProblem",
-    "status": 500,
-    "detail": "An unexpected problem has occurred.",
-    "instance": "https://api.weather.gov/requests/1f76d7b"
-}{
     "@context": [
         "https://geojson.org/geojson-ld/geojson-context.jsonld",
         {
