@@ -1,0 +1,43 @@
+{
+    "correlationId": "2a1a305",
+    "title": "Unexpected Problem",
+    "type": "https://api.weather.gov/problems/UnexpectedProblem",
+    "status": 500,
+    "detail": "An unexpected problem has occurred.",
+    "instance": "https://api.weather.gov/requests/2a1a305"
+}{
+    "correlationId": "42a33180",
+    "title": "Unexpected Problem",
+    "type": "https://api.weather.gov/problems/UnexpectedProblem",
+    "status": 500,
+    "detail": "An unexpected problem has occurred.",
+    "instance": "https://api.weather.gov/requests/42a33180"
+}{
+    "correlationId": "2a1c60e",
+    "title": "Unexpected Problem",
+    "type": "https://api.weather.gov/problems/UnexpectedProblem",
+    "status": 500,
+    "detail": "An unexpected problem has occurred.",
+    "instance": "https://api.weather.gov/requests/2a1c60e"
+}{
+    "correlationId": "8150ddd",
+    "title": "Unexpected Problem",
+    "type": "https://api.weather.gov/problems/UnexpectedProblem",
+    "status": 500,
+    "detail": "An unexpected problem has occurred.",
+    "instance": "https://api.weather.gov/requests/8150ddd"
+}{
+    "correlationId": "2a2645c",
+    "title": "Unexpected Problem",
+    "type": "https://api.weather.gov/problems/UnexpectedProblem",
+    "status": 500,
+    "detail": "An unexpected problem has occurred.",
+    "instance": "https://api.weather.gov/requests/2a2645c"
+}{
+    "correlationId": "8168b8e",
+    "title": "Unexpected Problem",
+    "type": "https://api.weather.gov/problems/UnexpectedProblem",
+    "status": 500,
+    "detail": "An unexpected problem has occurred.",
+    "instance": "https://api.weather.gov/requests/8168b8e"
+}
