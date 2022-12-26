@@ -1,0 +1,36 @@
+{
+    "correlationId": "3efe8bdd",
+    "title": "Service Unavailable",
+    "type": "https://api.weather.gov/problems/ServiceUnavailable",
+    "status": 503,
+    "detail": "An upstream data source is temporarily unavailable. Please try again later.",
+    "instance": "https://api.weather.gov/requests/3efe8bdd"
+}{
+    "correlationId": "3a01f097",
+    "title": "Service Unavailable",
+    "type": "https://api.weather.gov/problems/ServiceUnavailable",
+    "status": 503,
+    "detail": "An upstream data source is temporarily unavailable. Please try again later.",
+    "instance": "https://api.weather.gov/requests/3a01f097"
+}{
+    "correlationId": "3a01fff4",
+    "title": "Service Unavailable",
+    "type": "https://api.weather.gov/problems/ServiceUnavailable",
+    "status": 503,
+    "detail": "An upstream data source is temporarily unavailable. Please try again later.",
+    "instance": "https://api.weather.gov/requests/3a01fff4"
+}{
+    "correlationId": "402158a4",
+    "title": "Service Unavailable",
+    "type": "https://api.weather.gov/problems/ServiceUnavailable",
+    "status": 503,
+    "detail": "An upstream data source is temporarily unavailable. Please try again later.",
+    "instance": "https://api.weather.gov/requests/402158a4"
+}{
+    "correlationId": "3b9f23e3",
+    "title": "Unavailable Resource",
+    "type": "https://api.weather.gov/problems/UnavailableWebService",
+    "status": 503,
+    "detail": "The resource you requested is currently unavailable.  Please try again later.",
+    "instance": "https://api.weather.gov/requests/3b9f23e3"
+}
