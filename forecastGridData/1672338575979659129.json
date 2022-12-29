@@ -1,8 +1,0 @@
-{
-    "correlationId": "3256047",
-    "title": "Office Does Not Exist",
-    "type": "https://api.weather.gov/problems/InvalidOffice",
-    "status": 404,
-    "detail": "Office btv does not exist",
-    "instance": "https://api.weather.gov/requests/3256047"
-}
