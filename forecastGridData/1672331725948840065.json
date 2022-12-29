@@ -1,8 +1,0 @@
-{
-    "correlationId": "f8834a1",
-    "title": "Office Does Not Exist",
-    "type": "https://api.weather.gov/problems/InvalidOffice",
-    "status": 404,
-    "detail": "Office gyx does not exist",
-    "instance": "https://api.weather.gov/requests/f8834a1"
-}
