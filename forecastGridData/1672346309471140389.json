@@ -1,0 +1,8 @@
+{
+    "correlationId": "140c06ee",
+    "title": "Office Does Not Exist",
+    "type": "https://api.weather.gov/problems/InvalidOffice",
+    "status": 404,
+    "detail": "Office box does not exist",
+    "instance": "https://api.weather.gov/requests/140c06ee"
+}
