@@ -1,0 +1,15 @@
+{
+    "correlationId": "19e890a2",
+    "title": "Unexpected Problem",
+    "type": "https://api.weather.gov/problems/UnexpectedProblem",
+    "status": 500,
+    "detail": "An unexpected problem has occurred. If this error continues, please contact support at sdb.support@noaa.gov.",
+    "instance": "https://api.weather.gov/requests/19e890a2"
+}{
+    "correlationId": "184de124",
+    "title": "Unavailable Resource",
+    "type": "https://api.weather.gov/problems/UnavailableWebService",
+    "status": 503,
+    "detail": "The resource you requested is currently unavailable.  Please try again later.",
+    "instance": "https://api.weather.gov/requests/184de124"
+}
