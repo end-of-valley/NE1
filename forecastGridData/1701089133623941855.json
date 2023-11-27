@@ -1,0 +1,43 @@
+{
+    "correlationId": "4a5a9d0d",
+    "title": "Unexpected Problem",
+    "type": "https://api.weather.gov/problems/UnexpectedProblem",
+    "status": 500,
+    "detail": "An unexpected problem has occurred. If this error continues, please contact support at nco.ops@noaa.gov.",
+    "instance": "https://api.weather.gov/requests/4a5a9d0d"
+}{
+    "correlationId": "4a5aa193",
+    "title": "Unexpected Problem",
+    "type": "https://api.weather.gov/problems/UnexpectedProblem",
+    "status": 500,
+    "detail": "An unexpected problem has occurred. If this error continues, please contact support at nco.ops@noaa.gov.",
+    "instance": "https://api.weather.gov/requests/4a5aa193"
+}{
+    "correlationId": "57d6c474",
+    "title": "Service Unavailable",
+    "type": "https://api.weather.gov/problems/ServiceUnavailable",
+    "status": 503,
+    "detail": "An upstream data source is temporarily unavailable. Please try again later. If this error continues, please contact support at nco.ops@noaa.gov.",
+    "instance": "https://api.weather.gov/requests/57d6c474"
+}{
+    "correlationId": "57d72d72",
+    "title": "Service Unavailable",
+    "type": "https://api.weather.gov/problems/ServiceUnavailable",
+    "status": 503,
+    "detail": "An upstream data source is temporarily unavailable. Please try again later. If this error continues, please contact support at nco.ops@noaa.gov.",
+    "instance": "https://api.weather.gov/requests/57d72d72"
+}{
+    "correlationId": "57d7d890",
+    "title": "Unexpected Problem",
+    "type": "https://api.weather.gov/problems/UnexpectedProblem",
+    "status": 500,
+    "detail": "An unexpected problem has occurred. If this error continues, please contact support at nco.ops@noaa.gov.",
+    "instance": "https://api.weather.gov/requests/57d7d890"
+}{
+    "correlationId": "57d8584b",
+    "title": "Unexpected Problem",
+    "type": "https://api.weather.gov/problems/UnexpectedProblem",
+    "status": 500,
+    "detail": "An unexpected problem has occurred. If this error continues, please contact support at nco.ops@noaa.gov.",
+    "instance": "https://api.weather.gov/requests/57d8584b"
+}
