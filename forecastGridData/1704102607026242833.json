@@ -1,0 +1,15 @@
+{
+    "correlationId": "a535d8df",
+    "title": "Service Unavailable",
+    "type": "https://api.weather.gov/problems/ServiceUnavailable",
+    "status": 503,
+    "detail": "An upstream data source is temporarily unavailable. Please try again later. If this error continues, please contact support at nco.ops@noaa.gov.",
+    "instance": "https://api.weather.gov/requests/a535d8df"
+}{
+    "correlationId": "ba8ee37e",
+    "title": "Unavailable Resource",
+    "type": "https://api.weather.gov/problems/UnavailableWebService",
+    "status": 503,
+    "detail": "The resource you requested is currently unavailable.  Please try again later.",
+    "instance": "https://api.weather.gov/requests/ba8ee37e"
+}

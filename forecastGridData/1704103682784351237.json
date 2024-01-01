@@ -1,0 +1,22 @@
+{
+    "correlationId": "a5426c29",
+    "title": "Unexpected Problem",
+    "type": "https://api.weather.gov/problems/UnexpectedProblem",
+    "status": 500,
+    "detail": "An unexpected problem has occurred. If this error continues, please contact support at nco.ops@noaa.gov.",
+    "instance": "https://api.weather.gov/requests/a5426c29"
+}{
+    "correlationId": "a5426f87",
+    "title": "Unexpected Problem",
+    "type": "https://api.weather.gov/problems/UnexpectedProblem",
+    "status": 500,
+    "detail": "An unexpected problem has occurred. If this error continues, please contact support at nco.ops@noaa.gov.",
+    "instance": "https://api.weather.gov/requests/a5426f87"
+}{
+    "correlationId": "a5427650",
+    "title": "Unavailable Resource",
+    "type": "https://api.weather.gov/problems/UnavailableWebService",
+    "status": 503,
+    "detail": "The resource you requested is currently unavailable.  Please try again later.",
+    "instance": "https://api.weather.gov/requests/a5427650"
+}
