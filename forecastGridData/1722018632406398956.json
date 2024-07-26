@@ -1,0 +1,8 @@
+{
+    "correlationId": "34fb9b0",
+    "title": "Unavailable Resource",
+    "type": "https://api.weather.gov/problems/UnavailableWebService",
+    "status": 503,
+    "detail": "The resource you requested is currently unavailable.  Please try again later.",
+    "instance": "https://api.weather.gov/requests/34fb9b0"
+}
