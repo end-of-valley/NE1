@@ -1,0 +1,561 @@
+{
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wmoUnit": "https://codes.wmo.int/common/unit/",
+            "nwsUnit": "https://api.weather.gov/ontology/unit/"
+        }
+    ],
+    "id": "https://api.weather.gov/gridpoints/BTV/93,41",
+    "type": "Feature",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -73.167911500000002,
+                    44.146822299999997
+                ],
+                [
+                    -73.172714499999998,
+                    44.1256001
+                ],
+                [
+                    -73.143151199999991,
+                    44.122151199999998
+                ],
+                [
+                    -73.138341999999994,
+                    44.143373199999999
+                ],
+                [
+                    -73.167911500000002,
+                    44.146822299999997
+                ]
+            ]
+        ]
+    },
+    "properties": {
+        "@id": "https://api.weather.gov/gridpoints/BTV/93,41",
+        "@type": "wx:Gridpoint",
+        "updateTime": "2024-10-02T14:37:38+00:00",
+        "validTimes": "2024-10-02T12:00:00+00:00/PT12H",
+        "elevation": {
+            "unitCode": "wmoUnit:m",
+            "value": 121.92
+        },
+        "forecastOffice": "https://api.weather.gov/offices/BTV",
+        "gridId": "BTV",
+        "gridX": "93",
+        "gridY": "41",
+        "temperature": {
+            "uom": "wmoUnit:degC",
+            "values": [
+                {
+                    "validTime": "2024-10-02T12:00:00+00:00/PT1H",
+                    "value": 13.333333333333334
+                },
+                {
+                    "validTime": "2024-10-02T13:00:00+00:00/PT3H",
+                    "value": 13.888888888888889
+                },
+                {
+                    "validTime": "2024-10-02T16:00:00+00:00/PT1H",
+                    "value": 17.222222222222221
+                },
+                {
+                    "validTime": "2024-10-02T17:00:00+00:00/PT1H",
+                    "value": 17.777777777777779
+                },
+                {
+                    "validTime": "2024-10-02T18:00:00+00:00/PT2H",
+                    "value": 18.333333333333332
+                },
+                {
+                    "validTime": "2024-10-02T20:00:00+00:00/PT1H",
+                    "value": 17.777777777777779
+                },
+                {
+                    "validTime": "2024-10-02T21:00:00+00:00/PT2H",
+                    "value": 17.222222222222221
+                },
+                {
+                    "validTime": "2024-10-02T23:00:00+00:00/PT1H",
+                    "value": 16.111111111111111
+                }
+            ]
+        },
+        "dewpoint": {
+            "uom": "wmoUnit:degC",
+            "values": [
+                {
+                    "validTime": "2024-10-02T12:00:00+00:00/PT2H",
+                    "value": 7.7777777777777777
+                },
+                {
+                    "validTime": "2024-10-02T14:00:00+00:00/PT1H",
+                    "value": 8.3333333333333339
+                },
+                {
+                    "validTime": "2024-10-02T15:00:00+00:00/PT1H",
+                    "value": 9.4444444444444446
+                },
+                {
+                    "validTime": "2024-10-02T16:00:00+00:00/PT2H",
+                    "value": 10
+                },
+                {
+                    "validTime": "2024-10-02T18:00:00+00:00/PT4H",
+                    "value": 10.555555555555555
+                },
+                {
+                    "validTime": "2024-10-02T22:00:00+00:00/PT1H",
+                    "value": 11.111111111111111
+                },
+                {
+                    "validTime": "2024-10-02T23:00:00+00:00/PT1H",
+                    "value": 11.666666666666666
+                }
+            ]
+        },
+        "maxTemperature": {
+            "uom": "wmoUnit:degC",
+            "values": [
+                {
+                    "validTime": "2024-10-02T12:00:00+00:00/PT13H",
+                    "value": 19.444444444444443
+                }
+            ]
+        },
+        "minTemperature": {
+            "uom": "wmoUnit:degC",
+            "values": [
+                {
+                    "validTime": "2024-10-02T08:00:00+00:00/PT6H",
+                    "value": 12.222222222222221
+                }
+            ]
+        },
+        "relativeHumidity": {
+            "values": []
+        },
+        "apparentTemperature": {
+            "values": []
+        },
+        "wetBulbGlobeTemperature": {
+            "values": []
+        },
+        "heatIndex": {
+            "values": []
+        },
+        "windChill": {
+            "values": []
+        },
+        "skyCover": {
+            "uom": "wmoUnit:percent",
+            "values": [
+                {
+                    "validTime": "2024-10-02T12:00:00+00:00/PT1H",
+                    "value": 62
+                },
+                {
+                    "validTime": "2024-10-02T13:00:00+00:00/PT1H",
+                    "value": 56
+                },
+                {
+                    "validTime": "2024-10-02T14:00:00+00:00/PT1H",
+                    "value": 51
+                },
+                {
+                    "validTime": "2024-10-02T15:00:00+00:00/PT1H",
+                    "value": 25
+                },
+                {
+                    "validTime": "2024-10-02T16:00:00+00:00/PT1H",
+                    "value": 44
+                },
+                {
+                    "validTime": "2024-10-02T17:00:00+00:00/PT1H",
+                    "value": 61
+                },
+                {
+                    "validTime": "2024-10-02T18:00:00+00:00/PT1H",
+                    "value": 59
+                },
+                {
+                    "validTime": "2024-10-02T19:00:00+00:00/PT1H",
+                    "value": 64
+                },
+                {
+                    "validTime": "2024-10-02T20:00:00+00:00/PT1H",
+                    "value": 75
+                },
+                {
+                    "validTime": "2024-10-02T21:00:00+00:00/PT2H",
+                    "value": 83
+                },
+                {
+                    "validTime": "2024-10-02T23:00:00+00:00/PT1H",
+                    "value": 93
+                }
+            ]
+        },
+        "windDirection": {
+            "uom": "wmoUnit:degree_(angle)",
+            "values": [
+                {
+                    "validTime": "2024-10-02T12:00:00+00:00/PT1H",
+                    "value": 190
+                },
+                {
+                    "validTime": "2024-10-02T13:00:00+00:00/PT2H",
+                    "value": 180
+                },
+                {
+                    "validTime": "2024-10-02T15:00:00+00:00/PT8H",
+                    "value": 190
+                },
+                {
+                    "validTime": "2024-10-02T23:00:00+00:00/PT1H",
+                    "value": 180
+                }
+            ]
+        },
+        "windSpeed": {
+            "uom": "wmoUnit:km_h-1",
+            "values": [
+                {
+                    "validTime": "2024-10-02T12:00:00+00:00/PT1H",
+                    "value": 3.7040000000000002
+                },
+                {
+                    "validTime": "2024-10-02T13:00:00+00:00/PT1H",
+                    "value": 5.556
+                },
+                {
+                    "validTime": "2024-10-02T14:00:00+00:00/PT1H",
+                    "value": 12.964
+                },
+                {
+                    "validTime": "2024-10-02T15:00:00+00:00/PT1H",
+                    "value": 18.52
+                },
+                {
+                    "validTime": "2024-10-02T16:00:00+00:00/PT3H",
+                    "value": 16.667999999999999
+                },
+                {
+                    "validTime": "2024-10-02T19:00:00+00:00/PT1H",
+                    "value": 14.816000000000001
+                },
+                {
+                    "validTime": "2024-10-02T20:00:00+00:00/PT1H",
+                    "value": 9.2599999999999998
+                },
+                {
+                    "validTime": "2024-10-02T21:00:00+00:00/PT1H",
+                    "value": 7.4080000000000004
+                },
+                {
+                    "validTime": "2024-10-02T22:00:00+00:00/PT1H",
+                    "value": 3.7040000000000002
+                },
+                {
+                    "validTime": "2024-10-02T23:00:00+00:00/PT1H",
+                    "value": 1.8520000000000001
+                }
+            ]
+        },
+        "windGust": {
+            "uom": "wmoUnit:km_h-1",
+            "values": [
+                {
+                    "validTime": "2024-10-02T12:00:00+00:00/PT1H",
+                    "value": 18.52
+                },
+                {
+                    "validTime": "2024-10-02T13:00:00+00:00/PT1H",
+                    "value": 20.372
+                },
+                {
+                    "validTime": "2024-10-02T14:00:00+00:00/PT1H",
+                    "value": 24.076000000000001
+                },
+                {
+                    "validTime": "2024-10-02T15:00:00+00:00/PT4H",
+                    "value": 25.928000000000001
+                },
+                {
+                    "validTime": "2024-10-02T19:00:00+00:00/PT1H",
+                    "value": 24.076000000000001
+                },
+                {
+                    "validTime": "2024-10-02T20:00:00+00:00/PT1H",
+                    "value": 20.372
+                },
+                {
+                    "validTime": "2024-10-02T21:00:00+00:00/PT2H",
+                    "value": 18.52
+                },
+                {
+                    "validTime": "2024-10-02T23:00:00+00:00/PT1H",
+                    "value": 16.667999999999999
+                }
+            ]
+        },
+        "weather": {
+            "values": [
+                {
+                    "validTime": "2024-10-02T12:00:00+00:00/PT9H",
+                    "value": [
+                        {
+                            "coverage": null,
+                            "weather": null,
+                            "intensity": null,
+                            "visibility": {
+                                "unitCode": "wmoUnit:km",
+                                "value": null
+                            },
+                            "attributes": []
+                        }
+                    ]
+                },
+                {
+                    "validTime": "2024-10-02T21:00:00+00:00/PT2H",
+                    "value": [
+                        {
+                            "coverage": "slight_chance",
+                            "weather": "rain_showers",
+                            "intensity": "light",
+                            "visibility": {
+                                "unitCode": "wmoUnit:km",
+                                "value": null
+                            },
+                            "attributes": []
+                        }
+                    ]
+                },
+                {
+                    "validTime": "2024-10-02T23:00:00+00:00/PT1H",
+                    "value": [
+                        {
+                            "coverage": null,
+                            "weather": null,
+                            "intensity": null,
+                            "visibility": {
+                                "unitCode": "wmoUnit:km",
+                                "value": null
+                            },
+                            "attributes": []
+                        }
+                    ]
+                }
+            ]
+        },
+        "hazards": {
+            "values": []
+        },
+        "probabilityOfPrecipitation": {
+            "uom": "wmoUnit:percent",
+            "values": [
+                {
+                    "validTime": "2024-10-02T12:00:00+00:00/PT1H",
+                    "value": 0
+                },
+                {
+                    "validTime": "2024-10-02T13:00:00+00:00/PT3H",
+                    "value": 2
+                },
+                {
+                    "validTime": "2024-10-02T16:00:00+00:00/PT1H",
+                    "value": 3
+                },
+                {
+                    "validTime": "2024-10-02T17:00:00+00:00/PT1H",
+                    "value": 4
+                },
+                {
+                    "validTime": "2024-10-02T18:00:00+00:00/PT1H",
+                    "value": 5
+                },
+                {
+                    "validTime": "2024-10-02T19:00:00+00:00/PT1H",
+                    "value": 9
+                },
+                {
+                    "validTime": "2024-10-02T20:00:00+00:00/PT1H",
+                    "value": 12
+                },
+                {
+                    "validTime": "2024-10-02T21:00:00+00:00/PT1H",
+                    "value": 16
+                },
+                {
+                    "validTime": "2024-10-02T22:00:00+00:00/PT1H",
+                    "value": 12
+                },
+                {
+                    "validTime": "2024-10-02T23:00:00+00:00/PT1H",
+                    "value": 9
+                }
+            ]
+        },
+        "quantitativePrecipitation": {
+            "uom": "wmoUnit:mm",
+            "values": [
+                {
+                    "validTime": "2024-10-02T12:00:00+00:00/PT6H",
+                    "value": 0
+                },
+                {
+                    "validTime": "2024-10-02T18:00:00+00:00/PT6H",
+                    "value": 0.254
+                }
+            ]
+        },
+        "iceAccumulation": {
+            "uom": "wmoUnit:mm",
+            "values": [
+                {
+                    "validTime": "2024-10-02T12:00:00+00:00/PT6H",
+                    "value": 0
+                },
+                {
+                    "validTime": "2024-10-02T18:00:00+00:00/PT6H",
+                    "value": 0
+                }
+            ]
+        },
+        "snowfallAmount": {
+            "uom": "wmoUnit:mm",
+            "values": [
+                {
+                    "validTime": "2024-10-02T12:00:00+00:00/PT6H",
+                    "value": 0
+                },
+                {
+                    "validTime": "2024-10-02T18:00:00+00:00/PT6H",
+                    "value": 0
+                }
+            ]
+        },
+        "snowLevel": {
+            "values": []
+        },
+        "ceilingHeight": {
+            "values": []
+        },
+        "visibility": {
+            "values": []
+        },
+        "transportWindSpeed": {
+            "values": []
+        },
+        "transportWindDirection": {
+            "values": []
+        },
+        "mixingHeight": {
+            "values": []
+        },
+        "hainesIndex": {
+            "values": []
+        },
+        "lightningActivityLevel": {
+            "values": []
+        },
+        "twentyFootWindSpeed": {
+            "values": []
+        },
+        "twentyFootWindDirection": {
+            "values": []
+        },
+        "waveHeight": {
+            "values": []
+        },
+        "wavePeriod": {
+            "values": []
+        },
+        "waveDirection": {
+            "values": []
+        },
+        "primarySwellHeight": {
+            "values": []
+        },
+        "primarySwellDirection": {
+            "values": []
+        },
+        "secondarySwellHeight": {
+            "values": []
+        },
+        "secondarySwellDirection": {
+            "values": []
+        },
+        "wavePeriod2": {
+            "values": []
+        },
+        "windWaveHeight": {
+            "values": []
+        },
+        "dispersionIndex": {
+            "values": []
+        },
+        "pressure": {
+            "values": []
+        },
+        "probabilityOfTropicalStormWinds": {
+            "values": []
+        },
+        "probabilityOfHurricaneWinds": {
+            "values": []
+        },
+        "potentialOf15mphWinds": {
+            "values": []
+        },
+        "potentialOf25mphWinds": {
+            "values": []
+        },
+        "potentialOf35mphWinds": {
+            "values": []
+        },
+        "potentialOf45mphWinds": {
+            "values": []
+        },
+        "potentialOf20mphWindGusts": {
+            "values": []
+        },
+        "potentialOf30mphWindGusts": {
+            "values": []
+        },
+        "potentialOf40mphWindGusts": {
+            "values": []
+        },
+        "potentialOf50mphWindGusts": {
+            "values": []
+        },
+        "potentialOf60mphWindGusts": {
+            "values": []
+        },
+        "grasslandFireDangerIndex": {
+            "values": []
+        },
+        "probabilityOfThunder": {
+            "values": []
+        },
+        "davisStabilityIndex": {
+            "values": []
+        },
+        "atmosphericDispersionIndex": {
+            "values": []
+        },
+        "lowVisibilityOccurrenceRiskIndex": {
+            "values": []
+        },
+        "stability": {
+            "values": []
+        },
+        "redFlagThreatIndex": {
+            "values": []
+        }
+    }
+}
