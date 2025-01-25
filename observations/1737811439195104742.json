@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/K8B0/observations/2025-01-25T12:19:00+00:00",
+    "id": "https://api.weather.gov/stations/K8B0/observations/2025-01-25T12:39:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,14 +52,14 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/K8B0/observations/2025-01-25T12:19:00+00:00",
+        "@id": "https://api.weather.gov/stations/K8B0/observations/2025-01-25T12:39:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 552
         },
         "station": "https://api.weather.gov/stations/K8B0",
-        "timestamp": "2025-01-25T12:19:00+00:00",
+        "timestamp": "2025-01-25T12:39:00+00:00",
         "rawMessage": "",
         "textDescription": "Mostly Cloudy",
         "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
@@ -91,7 +91,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101862.57000000001,
+            "value": 101896.44,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -146,21 +146,14 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 426.72000000000003
-                },
-                "amount": "FEW"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 609.60000000000002
+                    "value": 579.12
                 },
                 "amount": "SCT"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 822.96000000000004
+                    "value": 853.44000000000005
                 },
                 "amount": "BKN"
             }

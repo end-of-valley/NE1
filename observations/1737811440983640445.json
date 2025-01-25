@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KFSO/observations/2025-01-25T12:15:00+00:00",
+    "id": "https://api.weather.gov/stations/KFSO/observations/2025-01-25T12:35:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,17 +52,17 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KFSO/observations/2025-01-25T12:15:00+00:00",
+        "@id": "https://api.weather.gov/stations/KFSO/observations/2025-01-25T12:35:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 69
         },
         "station": "https://api.weather.gov/stations/KFSO",
-        "timestamp": "2025-01-25T12:15:00+00:00",
-        "rawMessage": "KFSO 251215Z AUTO 14003KT 10SM OVC055 M16/M19 A3025 RMK AO2 T11611188",
+        "timestamp": "2025-01-25T12:35:00+00:00",
+        "rawMessage": "KFSO 251235Z AUTO 14003KT 10SM OVC055 M16/M19 A3025 RMK AO2 T11611186",
         "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -71,7 +71,7 @@
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": -18.800000000000001,
+            "value": -18.600000000000001,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -129,7 +129,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 79.670380862602002,
+            "value": 81.038179164951003,
             "qualityControl": "V"
         },
         "windChill": {
