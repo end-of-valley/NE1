@@ -42,46 +42,46 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KOQU/observations/2025-01-27T11:55:00+00:00",
+    "id": "https://api.weather.gov/stations/KFMH/observations/2025-01-27T11:56:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.420000000000002,
-            41.600000000000001
+            -70.519999999999996,
+            41.649999999999999
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KOQU/observations/2025-01-27T11:55:00+00:00",
+        "@id": "https://api.weather.gov/stations/KFMH/observations/2025-01-27T11:56:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 6
+            "value": 40
         },
-        "station": "https://api.weather.gov/stations/KOQU",
-        "timestamp": "2025-01-27T11:55:00+00:00",
-        "rawMessage": "KOQU 271155Z AUTO 26008KT 10SM CLR M02/M07 A2998 RMK AO2 11014 21047 70000",
+        "station": "https://api.weather.gov/stations/KFMH",
+        "timestamp": "2025-01-27T11:56:00+00:00",
+        "rawMessage": "KFMH 271156Z 00000KT 10SM CLR M07/M09 A2998",
         "textDescription": "Clear",
         "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": -2,
+            "value": -7,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": -7,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 260,
+            "value": 0,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 14.76,
+            "value": 0,
             "qualityControl": "V"
         },
         "windGust": {
@@ -129,12 +129,12 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 68.629648895336004,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": -6.8143301987005556,
+            "value": null,
             "qualityControl": "V"
         },
         "heatIndex": {
