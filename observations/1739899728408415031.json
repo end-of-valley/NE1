@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KUUU/observations/2025-02-18T14:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KUUU/observations/2025-02-18T15:53:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,21 +52,21 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KUUU/observations/2025-02-18T14:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KUUU/observations/2025-02-18T15:53:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 52
         },
         "station": "https://api.weather.gov/stations/KUUU",
-        "timestamp": "2025-02-18T14:53:00+00:00",
-        "rawMessage": "KUUU 181453Z AUTO 29015G26KT 10SM CLR M05/M18 A2997 RMK AO2 PK WND 31031/1401 SLP150 T10501183 58001",
+        "timestamp": "2025-02-18T15:53:00+00:00",
+        "rawMessage": "KUUU 181553Z AUTO 29015G27KT 10SM CLR M04/M18 A2997 RMK AO2 PK WND 29036/1513 SLP151 T10441183",
         "textDescription": "Clear",
         "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": -5,
+            "value": -4.4,
             "qualityControl": "V"
         },
         "dewpoint": {
@@ -96,7 +96,7 @@
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101500,
+            "value": 101510,
             "qualityControl": "V"
         },
         "visibility": {
@@ -129,12 +129,12 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 34.474594782082,
+            "value": 32.949571536557,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": -12.684902262305945,
+            "value": -11.90754702455111,
             "qualityControl": "V"
         },
         "heatIndex": {

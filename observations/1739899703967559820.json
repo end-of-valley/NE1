@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KFMH/observations/2025-02-18T14:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KFMH/observations/2025-02-18T15:56:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,21 +52,21 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KFMH/observations/2025-02-18T14:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KFMH/observations/2025-02-18T15:56:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 40
         },
         "station": "https://api.weather.gov/stations/KFMH",
-        "timestamp": "2025-02-18T14:56:00+00:00",
-        "rawMessage": "KFMH 181456Z 29025G35KT 10SM CLR M06/M17 A2994",
+        "timestamp": "2025-02-18T15:56:00+00:00",
+        "rawMessage": "KFMH 181556Z 29021G31KT 10SM CLR M05/M17 A2994",
         "textDescription": "Clear",
         "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": -6,
+            "value": -5,
             "qualityControl": "V"
         },
         "dewpoint": {
