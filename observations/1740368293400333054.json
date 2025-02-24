@@ -84,8 +84,8 @@
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": -6.1,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
@@ -142,7 +142,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 87.916064580353,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
