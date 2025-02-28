@@ -39,8 +39,8 @@
     "properties": {
         "@id": "https://api.weather.gov/gridpoints/GYX/42,13",
         "@type": "wx:Gridpoint",
-        "updateTime": "2025-02-28T14:32:57+00:00",
-        "validTimes": "2025-02-28T08:00:00+00:00/P7DT17H",
+        "updateTime": "2025-02-28T15:34:34+00:00",
+        "validTimes": "2025-02-28T09:00:00+00:00/P7DT16H",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 60.0456
@@ -53,39 +53,39 @@
             "uom": "wmoUnit:degC",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT1H",
-                    "value": -0.5555555555555556
-                },
-                {
                     "validTime": "2025-02-28T09:00:00+00:00/PT1H",
                     "value": 0.5555555555555556
                 },
                 {
-                    "validTime": "2025-02-28T10:00:00+00:00/PT1H",
+                    "validTime": "2025-02-28T10:00:00+00:00/PT2H",
                     "value": 1.1111111111111112
-                },
-                {
-                    "validTime": "2025-02-28T11:00:00+00:00/PT1H",
-                    "value": 0.5555555555555556
                 },
                 {
                     "validTime": "2025-02-28T12:00:00+00:00/PT1H",
-                    "value": 1.1111111111111112
-                },
-                {
-                    "validTime": "2025-02-28T13:00:00+00:00/PT1H",
-                    "value": 1.6666666666666667
-                },
-                {
-                    "validTime": "2025-02-28T14:00:00+00:00/PT1H",
                     "value": 2.2222222222222223
                 },
                 {
-                    "validTime": "2025-02-28T15:00:00+00:00/PT1H",
-                    "value": 2.7777777777777777
+                    "validTime": "2025-02-28T13:00:00+00:00/PT1H",
+                    "value": 5
                 },
                 {
-                    "validTime": "2025-02-28T16:00:00+00:00/PT4H",
+                    "validTime": "2025-02-28T14:00:00+00:00/PT1H",
+                    "value": 5.555555555555555
+                },
+                {
+                    "validTime": "2025-02-28T15:00:00+00:00/PT1H",
+                    "value": 6.111111111111111
+                },
+                {
+                    "validTime": "2025-02-28T16:00:00+00:00/PT1H",
+                    "value": 5.555555555555555
+                },
+                {
+                    "validTime": "2025-02-28T17:00:00+00:00/PT1H",
+                    "value": 4.444444444444445
+                },
+                {
+                    "validTime": "2025-02-28T18:00:00+00:00/PT2H",
                     "value": 3.888888888888889
                 },
                 {
@@ -622,19 +622,11 @@
             "uom": "wmoUnit:degC",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT1H",
-                    "value": -0.5555555555555556
-                },
-                {
                     "validTime": "2025-02-28T09:00:00+00:00/PT1H",
                     "value": -1.1111111111111112
                 },
                 {
-                    "validTime": "2025-02-28T10:00:00+00:00/PT1H",
-                    "value": -1.6666666666666667
-                },
-                {
-                    "validTime": "2025-02-28T11:00:00+00:00/PT1H",
+                    "validTime": "2025-02-28T10:00:00+00:00/PT2H",
                     "value": -2.2222222222222223
                 },
                 {
@@ -647,7 +639,7 @@
                 },
                 {
                     "validTime": "2025-02-28T14:00:00+00:00/PT1H",
-                    "value": -1.1111111111111112
+                    "value": -2.2222222222222223
                 },
                 {
                     "validTime": "2025-02-28T15:00:00+00:00/PT1H",
@@ -655,11 +647,11 @@
                 },
                 {
                     "validTime": "2025-02-28T16:00:00+00:00/PT1H",
-                    "value": -4.444444444444445
+                    "value": -3.888888888888889
                 },
                 {
                     "validTime": "2025-02-28T17:00:00+00:00/PT1H",
-                    "value": -5.555555555555555
+                    "value": -5
                 },
                 {
                     "validTime": "2025-02-28T18:00:00+00:00/PT2H",
@@ -1140,7 +1132,7 @@
             "values": [
                 {
                     "validTime": "2025-02-28T12:00:00+00:00/PT13H",
-                    "value": 4.444444444444445
+                    "value": 6.666666666666667
                 },
                 {
                     "validTime": "2025-03-01T12:00:00+00:00/PT13H",
@@ -1176,7 +1168,7 @@
             "uom": "wmoUnit:degC",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT6H",
+                    "validTime": "2025-02-28T09:00:00+00:00/PT5H",
                     "value": -0.5555555555555556
                 },
                 {
@@ -1217,39 +1209,31 @@
             "uom": "wmoUnit:percent",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT1H",
-                    "value": 100
-                },
-                {
                     "validTime": "2025-02-28T09:00:00+00:00/PT1H",
                     "value": 89
                 },
                 {
                     "validTime": "2025-02-28T10:00:00+00:00/PT2H",
-                    "value": 82
-                },
-                {
-                    "validTime": "2025-02-28T12:00:00+00:00/PT1H",
-                    "value": 75
-                },
-                {
-                    "validTime": "2025-02-28T13:00:00+00:00/PT1H",
                     "value": 78
                 },
                 {
+                    "validTime": "2025-02-28T12:00:00+00:00/PT1H",
+                    "value": 69
+                },
+                {
+                    "validTime": "2025-02-28T13:00:00+00:00/PT1H",
+                    "value": 62
+                },
+                {
                     "validTime": "2025-02-28T14:00:00+00:00/PT1H",
-                    "value": 79
+                    "value": 57
                 },
                 {
                     "validTime": "2025-02-28T15:00:00+00:00/PT1H",
-                    "value": 67
+                    "value": 53
                 },
                 {
-                    "validTime": "2025-02-28T16:00:00+00:00/PT1H",
-                    "value": 54
-                },
-                {
-                    "validTime": "2025-02-28T17:00:00+00:00/PT1H",
+                    "validTime": "2025-02-28T16:00:00+00:00/PT2H",
                     "value": 50
                 },
                 {
@@ -1770,10 +1754,6 @@
             "uom": "wmoUnit:degC",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT1H",
-                    "value": -3.3333333333333335
-                },
-                {
                     "validTime": "2025-02-28T09:00:00+00:00/PT1H",
                     "value": -2.2222222222222223
                 },
@@ -1783,14 +1763,30 @@
                 },
                 {
                     "validTime": "2025-02-28T11:00:00+00:00/PT1H",
-                    "value": -2.7777777777777777
-                },
-                {
-                    "validTime": "2025-02-28T12:00:00+00:00/PT4H",
                     "value": -2.2222222222222223
                 },
                 {
-                    "validTime": "2025-02-28T16:00:00+00:00/PT4H",
+                    "validTime": "2025-02-28T12:00:00+00:00/PT1H",
+                    "value": -1.1111111111111112
+                },
+                {
+                    "validTime": "2025-02-28T13:00:00+00:00/PT1H",
+                    "value": 1.6666666666666667
+                },
+                {
+                    "validTime": "2025-02-28T14:00:00+00:00/PT2H",
+                    "value": 2.2222222222222223
+                },
+                {
+                    "validTime": "2025-02-28T16:00:00+00:00/PT1H",
+                    "value": 1.6666666666666667
+                },
+                {
+                    "validTime": "2025-02-28T17:00:00+00:00/PT1H",
+                    "value": 0
+                },
+                {
+                    "validTime": "2025-02-28T18:00:00+00:00/PT2H",
                     "value": -0.5555555555555556
                 },
                 {
@@ -2331,10 +2327,6 @@
             "uom": "wmoUnit:degC",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT1H",
-                    "value": 1.6666666666666667
-                },
-                {
                     "validTime": "2025-02-28T09:00:00+00:00/PT1H",
                     "value": 1.1111111111111112
                 },
@@ -2359,11 +2351,11 @@
                     "value": 1.6666666666666667
                 },
                 {
-                    "validTime": "2025-02-28T15:00:00+00:00/PT1H",
-                    "value": 2.2222222222222223
+                    "validTime": "2025-02-28T15:00:00+00:00/PT2H",
+                    "value": 4.444444444444445
                 },
                 {
-                    "validTime": "2025-02-28T16:00:00+00:00/PT2H",
+                    "validTime": "2025-02-28T17:00:00+00:00/PT1H",
                     "value": 3.3333333333333335
                 },
                 {
@@ -2376,7 +2368,7 @@
                 },
                 {
                     "validTime": "2025-02-28T20:00:00+00:00/PT1H",
-                    "value": 1.6666666666666667
+                    "value": 1.1111111111111112
                 },
                 {
                     "validTime": "2025-02-28T21:00:00+00:00/PT2H",
@@ -2864,7 +2856,7 @@
             "uom": "wmoUnit:degC",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/P7DT17H",
+                    "validTime": "2025-02-28T09:00:00+00:00/P7DT16H",
                     "value": null
                 }
             ]
@@ -2872,10 +2864,6 @@
         "windChill": {
             "uom": "wmoUnit:degC",
             "values": [
-                {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT1H",
-                    "value": -3.3333333333333335
-                },
                 {
                     "validTime": "2025-02-28T09:00:00+00:00/PT1H",
                     "value": -2.2222222222222223
@@ -2886,14 +2874,30 @@
                 },
                 {
                     "validTime": "2025-02-28T11:00:00+00:00/PT1H",
-                    "value": -2.7777777777777777
-                },
-                {
-                    "validTime": "2025-02-28T12:00:00+00:00/PT4H",
                     "value": -2.2222222222222223
                 },
                 {
-                    "validTime": "2025-02-28T16:00:00+00:00/PT4H",
+                    "validTime": "2025-02-28T12:00:00+00:00/PT1H",
+                    "value": -1.1111111111111112
+                },
+                {
+                    "validTime": "2025-02-28T13:00:00+00:00/PT1H",
+                    "value": 1.6666666666666667
+                },
+                {
+                    "validTime": "2025-02-28T14:00:00+00:00/PT2H",
+                    "value": 2.2222222222222223
+                },
+                {
+                    "validTime": "2025-02-28T16:00:00+00:00/PT1H",
+                    "value": 1.6666666666666667
+                },
+                {
+                    "validTime": "2025-02-28T17:00:00+00:00/PT1H",
+                    "value": 0
+                },
+                {
+                    "validTime": "2025-02-28T18:00:00+00:00/PT2H",
                     "value": -0.5555555555555556
                 },
                 {
@@ -3426,10 +3430,6 @@
             "uom": "wmoUnit:percent",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT1H",
-                    "value": 39
-                },
-                {
                     "validTime": "2025-02-28T09:00:00+00:00/PT1H",
                     "value": 26
                 },
@@ -3446,48 +3446,40 @@
                     "value": 8
                 },
                 {
-                    "validTime": "2025-02-28T13:00:00+00:00/PT1H",
+                    "validTime": "2025-02-28T13:00:00+00:00/PT2H",
                     "value": 4
                 },
                 {
-                    "validTime": "2025-02-28T14:00:00+00:00/PT1H",
-                    "value": 12
-                },
-                {
                     "validTime": "2025-02-28T15:00:00+00:00/PT1H",
-                    "value": 15
+                    "value": 16
                 },
                 {
                     "validTime": "2025-02-28T16:00:00+00:00/PT1H",
-                    "value": 34
-                },
-                {
-                    "validTime": "2025-02-28T17:00:00+00:00/PT1H",
-                    "value": 13
-                },
-                {
-                    "validTime": "2025-02-28T18:00:00+00:00/PT1H",
-                    "value": 15
-                },
-                {
-                    "validTime": "2025-02-28T19:00:00+00:00/PT1H",
-                    "value": 21
-                },
-                {
-                    "validTime": "2025-02-28T20:00:00+00:00/PT1H",
-                    "value": 28
-                },
-                {
-                    "validTime": "2025-02-28T21:00:00+00:00/PT1H",
-                    "value": 34
-                },
-                {
-                    "validTime": "2025-02-28T22:00:00+00:00/PT1H",
                     "value": 44
                 },
                 {
+                    "validTime": "2025-02-28T17:00:00+00:00/PT2H",
+                    "value": 14
+                },
+                {
+                    "validTime": "2025-02-28T19:00:00+00:00/PT1H",
+                    "value": 28
+                },
+                {
+                    "validTime": "2025-02-28T20:00:00+00:00/PT1H",
+                    "value": 39
+                },
+                {
+                    "validTime": "2025-02-28T21:00:00+00:00/PT1H",
+                    "value": 53
+                },
+                {
+                    "validTime": "2025-02-28T22:00:00+00:00/PT1H",
+                    "value": 68
+                },
+                {
                     "validTime": "2025-02-28T23:00:00+00:00/PT1H",
-                    "value": 55
+                    "value": 71
                 },
                 {
                     "validTime": "2025-03-01T00:00:00+00:00/PT1H",
@@ -4043,7 +4035,7 @@
             "uom": "wmoUnit:degree_(angle)",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT3H",
+                    "validTime": "2025-02-28T09:00:00+00:00/PT2H",
                     "value": 260
                 },
                 {
@@ -4251,10 +4243,6 @@
         "windSpeed": {
             "uom": "wmoUnit:km_h-1",
             "values": [
-                {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT1H",
-                    "value": 7.408
-                },
                 {
                     "validTime": "2025-02-28T09:00:00+00:00/PT2H",
                     "value": 9.26
@@ -4501,7 +4489,7 @@
             "uom": "wmoUnit:km_h-1",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT2H",
+                    "validTime": "2025-02-28T09:00:00+00:00/PT1H",
                     "value": 16.668
                 },
                 {
@@ -4845,62 +4833,7 @@
         "weather": {
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT7H",
-                    "value": [
-                        {
-                            "coverage": null,
-                            "weather": null,
-                            "intensity": null,
-                            "visibility": {
-                                "unitCode": "wmoUnit:km",
-                                "value": null
-                            },
-                            "attributes": []
-                        }
-                    ]
-                },
-                {
-                    "validTime": "2025-02-28T15:00:00+00:00/PT1H",
-                    "value": [
-                        {
-                            "coverage": "isolated",
-                            "weather": "rain_showers",
-                            "intensity": "light",
-                            "visibility": {
-                                "unitCode": "wmoUnit:km",
-                                "value": null
-                            },
-                            "attributes": []
-                        }
-                    ]
-                },
-                {
-                    "validTime": "2025-02-28T16:00:00+00:00/PT1H",
-                    "value": [
-                        {
-                            "coverage": "scattered",
-                            "weather": "rain_showers",
-                            "intensity": "light",
-                            "visibility": {
-                                "unitCode": "wmoUnit:km",
-                                "value": null
-                            },
-                            "attributes": []
-                        },
-                        {
-                            "coverage": "scattered",
-                            "weather": "snow_showers",
-                            "intensity": "light",
-                            "visibility": {
-                                "unitCode": "wmoUnit:km",
-                                "value": null
-                            },
-                            "attributes": []
-                        }
-                    ]
-                },
-                {
-                    "validTime": "2025-02-28T17:00:00+00:00/PT9H",
+                    "validTime": "2025-02-28T09:00:00+00:00/PT17H",
                     "value": [
                         {
                             "coverage": null,
@@ -5143,7 +5076,7 @@
             "uom": "wmoUnit:percent",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT4H",
+                    "validTime": "2025-02-28T09:00:00+00:00/PT3H",
                     "value": 0
                 },
                 {
@@ -5160,22 +5093,22 @@
                 },
                 {
                     "validTime": "2025-02-28T15:00:00+00:00/PT1H",
-                    "value": 15
+                    "value": 6
                 },
                 {
                     "validTime": "2025-02-28T16:00:00+00:00/PT1H",
-                    "value": 34
+                    "value": 12
                 },
                 {
                     "validTime": "2025-02-28T17:00:00+00:00/PT1H",
-                    "value": 4
+                    "value": 2
                 },
                 {
-                    "validTime": "2025-02-28T18:00:00+00:00/PT4H",
+                    "validTime": "2025-02-28T18:00:00+00:00/PT5H",
                     "value": 0
                 },
                 {
-                    "validTime": "2025-02-28T22:00:00+00:00/PT2H",
+                    "validTime": "2025-02-28T23:00:00+00:00/PT1H",
                     "value": 1
                 },
                 {
@@ -5340,7 +5273,7 @@
             "uom": "wmoUnit:mm",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT4H",
+                    "validTime": "2025-02-28T09:00:00+00:00/PT3H",
                     "value": 0
                 },
                 {
@@ -5397,7 +5330,7 @@
             "uom": "wmoUnit:mm",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT4H",
+                    "validTime": "2025-02-28T09:00:00+00:00/PT3H",
                     "value": 0
                 },
                 {
@@ -5454,7 +5387,7 @@
             "uom": "wmoUnit:mm",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT4H",
+                    "validTime": "2025-02-28T09:00:00+00:00/PT3H",
                     "value": 0
                 },
                 {
@@ -5513,10 +5446,6 @@
         "ceilingHeight": {
             "uom": "wmoUnit:m",
             "values": [
-                {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT1H",
-                    "value": 1005.84
-                },
                 {
                     "validTime": "2025-02-28T09:00:00+00:00/PT1H",
                     "value": 1219.2
@@ -5587,7 +5516,7 @@
             "uom": "wmoUnit:m",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT19H",
+                    "validTime": "2025-02-28T09:00:00+00:00/PT18H",
                     "value": 16093.44
                 },
                 {
@@ -5616,7 +5545,7 @@
             "uom": "wmoUnit:km_h-1",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT2H",
+                    "validTime": "2025-02-28T09:00:00+00:00/PT1H",
                     "value": 14.816
                 },
                 {
@@ -5817,7 +5746,7 @@
             "uom": "wmoUnit:degree_(angle)",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT2H",
+                    "validTime": "2025-02-28T09:00:00+00:00/PT1H",
                     "value": 260
                 },
                 {
@@ -5929,10 +5858,6 @@
         "mixingHeight": {
             "uom": "wmoUnit:m",
             "values": [
-                {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT1H",
-                    "value": 160.02
-                },
                 {
                     "validTime": "2025-02-28T09:00:00+00:00/PT2H",
                     "value": 152.0952
@@ -6237,7 +6162,7 @@
         "lightningActivityLevel": {
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/P4DT11H",
+                    "validTime": "2025-02-28T09:00:00+00:00/P4DT10H",
                     "value": 1
                 }
             ]
@@ -6245,10 +6170,6 @@
         "twentyFootWindSpeed": {
             "uom": "wmoUnit:km_h-1",
             "values": [
-                {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT1H",
-                    "value": 5.556
-                },
                 {
                     "validTime": "2025-02-28T09:00:00+00:00/PT2H",
                     "value": 7.408
@@ -6379,7 +6300,7 @@
             "uom": "wmoUnit:degree_(angle)",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT3H",
+                    "validTime": "2025-02-28T09:00:00+00:00/PT2H",
                     "value": 260
                 },
                 {
@@ -6536,7 +6457,7 @@
             "uom": "wmoUnit:m",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/P6DT11H",
+                    "validTime": "2025-02-28T09:00:00+00:00/P6DT10H",
                     "value": 0
                 }
             ]
@@ -6545,7 +6466,7 @@
             "uom": "nwsUnit:s",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/P5DT10H",
+                    "validTime": "2025-02-28T09:00:00+00:00/P5DT9H",
                     "value": 0
                 }
             ]
@@ -6569,7 +6490,7 @@
             "uom": "nwsUnit:s",
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/P1DT11H",
+                    "validTime": "2025-02-28T09:00:00+00:00/P1DT10H",
                     "value": 0
                 },
                 {
@@ -6652,7 +6573,7 @@
         "lowVisibilityOccurrenceRiskIndex": {
             "values": [
                 {
-                    "validTime": "2025-02-28T08:00:00+00:00/PT3H",
+                    "validTime": "2025-02-28T09:00:00+00:00/PT2H",
                     "value": 6
                 },
                 {
