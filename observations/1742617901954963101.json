@@ -42,36 +42,36 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KOQU/observations/2025-03-22T02:55:00+00:00",
+    "id": "https://api.weather.gov/stations/KEFK/observations/2025-03-22T03:15:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.42,
-            41.6
+            -72.23,
+            44.88
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KOQU/observations/2025-03-22T02:55:00+00:00",
+        "@id": "https://api.weather.gov/stations/KEFK/observations/2025-03-22T03:15:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 6
+            "value": 283
         },
-        "station": "https://api.weather.gov/stations/KOQU",
-        "timestamp": "2025-03-22T02:55:00+00:00",
-        "rawMessage": "KOQU 220255Z AUTO 28014G21KT 10SM CLR 05/M08 A2973 RMK AO2",
+        "station": "https://api.weather.gov/stations/KEFK",
+        "timestamp": "2025-03-22T03:15:00+00:00",
+        "rawMessage": "KEFK 220315Z AUTO 28004KT 10SM CLR 01/M11 A2970 RMK AO2 T00111106",
         "textDescription": "Clear",
         "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 5,
+            "value": 1.1,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": -8,
+            "value": -10.6,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -81,7 +81,7 @@
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 25.92,
+            "value": 7.56,
             "qualityControl": "V"
         },
         "windGust": {
@@ -91,7 +91,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100680,
+            "value": 100580,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -129,12 +129,12 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 38.474160435014,
+            "value": 41.347128477621,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": 0.44158135201777776,
+            "value": -1.292056229541111,
             "qualityControl": "V"
         },
         "heatIndex": {
