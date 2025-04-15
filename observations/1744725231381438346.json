@@ -47,8 +47,8 @@
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.7,
-            44.96
+            -70.66,
+            44.99
         ]
     },
     "properties": {
@@ -56,11 +56,11 @@
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 554
+            "value": 552
         },
         "station": "https://api.weather.gov/stations/K8B0",
         "timestamp": "2025-04-15T09:55:00+00:00",
-        "rawMessage": "K8B0 150955Z AUTO 00000KT 10SM SCT047 BKN055 OVC070 05/M01 A2950 RMK AO2",
+        "rawMessage": "",
         "textDescription": "Cloudy",
         "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
         "presentWeather": [],
@@ -91,7 +91,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 99900,
+            "value": 99898.47,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -101,7 +101,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 16093.44,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -146,21 +146,21 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1430
+                    "value": 1432.56
                 },
                 "amount": "SCT"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1680
+                    "value": 1676.4
                 },
                 "amount": "BKN"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 2130
+                    "value": 2133.6
                 },
                 "amount": "OVC"
             }
