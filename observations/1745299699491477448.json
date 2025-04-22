@@ -42,25 +42,25 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/K8B0/observations/2025-04-22T03:34:00+00:00",
+    "id": "https://api.weather.gov/stations/KAFN/observations/2025-04-22T03:52:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.66,
-            44.99
+            -72,
+            42.8
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/K8B0/observations/2025-04-22T03:34:00+00:00",
+        "@id": "https://api.weather.gov/stations/KAFN/observations/2025-04-22T03:52:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 552
+            "value": 317
         },
-        "station": "https://api.weather.gov/stations/K8B0",
-        "timestamp": "2025-04-22T03:34:00+00:00",
-        "rawMessage": "",
+        "station": "https://api.weather.gov/stations/KAFN",
+        "timestamp": "2025-04-22T03:52:00+00:00",
+        "rawMessage": "KAFN 220352Z AUTO 21011G22KT 10SM -RA 08/M01 A3004 RMK AO2 RAB39 SLP181 P0000 T00831011 $",
         "textDescription": "Light Rain",
         "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
         "presentWeather": [
@@ -73,23 +73,23 @@
         ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 3,
+            "value": 8.3,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 2,
+            "value": -1.1,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 160,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 9.252,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -98,17 +98,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101693.25,
-            "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-            "unitCode": "wmoUnit:Pa",
             "value": null,
             "qualityControl": "Z"
         },
+        "seaLevelPressure": {
+            "unitCode": "wmoUnit:Pa",
+            "value": 101810,
+            "qualityControl": "V"
+        },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 14484.1,
+            "value": 16090,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -121,8 +121,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "C"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -136,12 +136,12 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 93.14153052995,
+            "value": 51.573416948133,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": 0.4673325558422222,
+            "value": null,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -149,28 +149,6 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": [
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 548.64
-                },
-                "amount": "FEW"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1066.8
-                },
-                "amount": "SCT"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1219.2
-                },
-                "amount": "OVC"
-            }
-        ]
+        "cloudLayers": []
     }
 }
