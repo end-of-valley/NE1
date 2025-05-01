@@ -1,0 +1,37 @@
+{"type":"https://api.weather.gov/problems/ApplicationUnavailable",
+            "title":"Application Unavailable",
+            "status":502,
+            "detail":"The application is temporarily unavailable. Please try again later.",
+            "instance":"urn:noaa:nws:api:request:1dacba2a",
+            "correlationId":"1dacba2a"}{
+    "correlationId": "1dacc42c",
+    "title": "Service Unavailable",
+    "type": "https://api.weather.gov/problems/ServiceUnavailable",
+    "status": 503,
+    "detail": "An upstream data source is temporarily unavailable. Please try again later. If this error continues, please contact support at nco.ops@noaa.gov.",
+    "instance": "https://api.weather.gov/requests/1dacc42c"
+}{
+    "correlationId": "1dad627a",
+    "title": "Service Unavailable",
+    "type": "https://api.weather.gov/problems/ServiceUnavailable",
+    "status": 503,
+    "detail": "An upstream data source is temporarily unavailable. Please try again later. If this error continues, please contact support at nco.ops@noaa.gov.",
+    "instance": "https://api.weather.gov/requests/1dad627a"
+}{
+    "correlationId": "276eca5d",
+    "title": "Service Unavailable",
+    "type": "https://api.weather.gov/problems/ServiceUnavailable",
+    "status": 503,
+    "detail": "An upstream data source is temporarily unavailable. Please try again later. If this error continues, please contact support at nco.ops@noaa.gov.",
+    "instance": "https://api.weather.gov/requests/276eca5d"
+}{"type":"https://api.weather.gov/problems/ApplicationUnavailable",
+            "title":"Application Unavailable",
+            "status":502,
+            "detail":"The application is temporarily unavailable. Please try again later.",
+            "instance":"urn:noaa:nws:api:request:27709f93",
+            "correlationId":"27709f93"}{"type":"https://api.weather.gov/problems/ApplicationUnavailable",
+            "title":"Application Unavailable",
+            "status":502,
+            "detail":"The application is temporarily unavailable. Please try again later.",
+            "instance":"urn:noaa:nws:api:request:1daebf86",
+            "correlationId":"1daebf86"}
