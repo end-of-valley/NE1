@@ -42,45 +42,38 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KFSO/observations/2025-06-02T02:55:00+00:00",
+    "id": "https://api.weather.gov/stations/KCDA/observations/2025-06-02T03:35:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -73.09,
-            44.93
+            -72.01,
+            44.57
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KFSO/observations/2025-06-02T02:55:00+00:00",
+        "@id": "https://api.weather.gov/stations/KCDA/observations/2025-06-02T03:35:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 69
+            "value": 362
         },
-        "station": "https://api.weather.gov/stations/KFSO",
-        "stationId": "KFSO",
-        "stationName": "Franklin County State Airport",
-        "timestamp": "2025-06-02T02:55:00+00:00",
-        "rawMessage": "KFSO 020255Z AUTO 00000KT 10SM DZ 11/07 A2977 RMK AO2 T01060066",
-        "textDescription": "Drizzle",
-        "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
-        "presentWeather": [
-            {
-                "intensity": null,
-                "modifier": null,
-                "weather": "drizzle",
-                "rawString": "DZ"
-            }
-        ],
+        "station": "https://api.weather.gov/stations/KCDA",
+        "stationId": "KCDA",
+        "stationName": "Caledonia County Airport",
+        "timestamp": "2025-06-02T03:35:00+00:00",
+        "rawMessage": "KCDA 020335Z AUTO 00000KT 10SM SCT021 OVC031 09/06 A2978 RMK AO2 T00910064",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
+        "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 10.6,
+            "value": 9.1,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 6.6,
+            "value": 6.4,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -100,7 +93,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100810,
+            "value": 100850,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -138,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 76.291819907428,
+            "value": 83.202567049603,
             "qualityControl": "V"
         },
         "windChill": {
@@ -151,6 +144,21 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 640
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 940
+                },
+                "amount": "OVC"
+            }
+        ]
     }
 }
