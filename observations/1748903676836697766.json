@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KFSO/observations/2025-06-02T20:55:00+00:00",
+    "id": "https://api.weather.gov/stations/KOQU/observations/2025-06-02T21:35:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -73.09,
-            44.93
+            -71.42,
+            41.6
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KFSO/observations/2025-06-02T20:55:00+00:00",
+        "@id": "https://api.weather.gov/stations/KOQU/observations/2025-06-02T21:35:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 69
+            "value": 6
         },
-        "station": "https://api.weather.gov/stations/KFSO",
-        "stationId": "KFSO",
-        "stationName": "Franklin County State Airport",
-        "timestamp": "2025-06-02T20:55:00+00:00",
-        "rawMessage": "KFSO 022055Z AUTO 00000KT 10SM 20/04 A2987 RMK AO2 T01970036",
-        "textDescription": "",
-        "icon": null,
+        "station": "https://api.weather.gov/stations/KOQU",
+        "stationId": "KOQU",
+        "stationName": "N. Kingston / Quonset",
+        "timestamp": "2025-06-02T21:35:00+00:00",
+        "rawMessage": "KOQU 022135Z AUTO 20013G20KT 10SM CLR 20/09 A2992 RMK AO2",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 19.7,
+            "value": 20,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 3.6,
+            "value": 9,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 0,
+            "value": 200,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 0,
+            "value": 24.12,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,7 +93,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101150,
+            "value": 101320,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 34.498701157984,
+            "value": 49.128249109205,
             "qualityControl": "V"
         },
         "windChill": {
@@ -144,6 +144,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": null
+                },
+                "amount": "CLR"
+            }
+        ]
     }
 }
