@@ -42,38 +42,38 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KCDA/observations/2025-06-14T02:55:00+00:00",
+    "id": "https://api.weather.gov/stations/KFSO/observations/2025-06-14T03:15:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.01,
-            44.57
+            -73.09,
+            44.93
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KCDA/observations/2025-06-14T02:55:00+00:00",
+        "@id": "https://api.weather.gov/stations/KFSO/observations/2025-06-14T03:15:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 362
+            "value": 69
         },
-        "station": "https://api.weather.gov/stations/KCDA",
-        "stationId": "KCDA",
-        "stationName": "Caledonia County Airport",
-        "timestamp": "2025-06-14T02:55:00+00:00",
-        "rawMessage": "KCDA 140255Z AUTO 00000KT 10SM BKN120 11/07 A3021 RMK AO2 T01050068",
-        "textDescription": "Mostly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+        "station": "https://api.weather.gov/stations/KFSO",
+        "stationId": "KFSO",
+        "stationName": "Franklin County State Airport",
+        "timestamp": "2025-06-14T03:15:00+00:00",
+        "rawMessage": "KFSO 140315Z AUTO 00000KT 10SM 13/10 A3018 RMK AO2 T01340099",
+        "textDescription": "",
+        "icon": null,
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 10.5,
+            "value": 13.4,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 6.8,
+            "value": 9.9,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -93,7 +93,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102300,
+            "value": 102200,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 77.863927697453,
+            "value": 79.362981377959,
             "qualityControl": "V"
         },
         "windChill": {
@@ -144,14 +144,6 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": [
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 3660
-                },
-                "amount": "BKN"
-            }
-        ]
+        "cloudLayers": []
     }
 }
