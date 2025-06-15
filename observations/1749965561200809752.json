@@ -42,38 +42,38 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBML/observations/2025-06-15T02:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KLWM/observations/2025-06-15T03:54:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.18,
-            44.58
+            -71.12,
+            42.72
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBML/observations/2025-06-15T02:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KLWM/observations/2025-06-15T03:54:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 353
+            "value": 45
         },
-        "station": "https://api.weather.gov/stations/KBML",
-        "stationId": "KBML",
-        "stationName": "Berlin, Berlin Municipal Airport",
-        "timestamp": "2025-06-15T02:52:00+00:00",
-        "rawMessage": "KBML 150252Z AUTO 00000KT 10SM CLR 11/08 A3016 RMK AO2 SLP215 T01110083 51011",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+        "station": "https://api.weather.gov/stations/KLWM",
+        "stationId": "KLWM",
+        "stationName": "Lawrence Municipal Airport",
+        "timestamp": "2025-06-15T03:54:00+00:00",
+        "rawMessage": "KLWM 150354Z AUTO 00000KT 10SM OVC060 13/11 A3021 RMK AO2 SLP231 T01330111",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 11.1,
+            "value": 13.3,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 8.3,
+            "value": 11.1,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -93,12 +93,12 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102130,
+            "value": 102300,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102150,
+            "value": 102310,
             "qualityControl": "V"
         },
         "visibility": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 82.880385175758,
+            "value": 86.531884394108,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,9 +148,9 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 1830
                 },
-                "amount": "CLR"
+                "amount": "OVC"
             }
         ]
     }

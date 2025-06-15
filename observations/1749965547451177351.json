@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KWST/observations/2025-06-15T02:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KOXC/observations/2025-06-15T03:56:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.8,
-            41.35
+            -73.13,
+            41.4799999
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KWST/observations/2025-06-15T02:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KOXC/observations/2025-06-15T03:56:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 25
+            "value": 222
         },
-        "station": "https://api.weather.gov/stations/KWST",
-        "stationId": "KWST",
-        "stationName": "Westerly, Westerly State Airport",
-        "timestamp": "2025-06-15T02:53:00+00:00",
-        "rawMessage": "KWST 150253Z AUTO 01004KT 10SM OVC030 13/12 A3016 RMK AO2 SLP211 T01280117 53010",
+        "station": "https://api.weather.gov/stations/KOXC",
+        "stationId": "KOXC",
+        "stationName": "Oxford, Waterbury-Oxford Airport",
+        "timestamp": "2025-06-15T03:56:00+00:00",
+        "rawMessage": "KOXC 150356Z 08006KT 10SM OVC020 14/12 A3019 RMK AO2 SLP234 T01390122 $",
         "textDescription": "Cloudy",
         "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 12.8,
+            "value": 13.9,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 11.7,
+            "value": 12.2,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 10,
+            "value": 80,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 7.56,
+            "value": 11.16,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102130,
+            "value": 102240,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102110,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 93.025244755636,
+            "value": 89.490389141325,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,7 +148,7 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 910
+                    "value": 610
                 },
                 "amount": "OVC"
             }
