@@ -63,8 +63,8 @@
         "stationName": "Boston, Logan International Airport",
         "timestamp": "2025-06-20T14:54:00+00:00",
         "rawMessage": "KBOS 201454Z 27021G37KT 10SM SCT050 24/13 A2965 RMK AO2 PK WND 28038/1415 SLP040 T02440128 51014",
-        "textDescription": "Partly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+        "textDescription": "Partly Cloudy and Windy",
+        "icon": "https://api.weather.gov/icons/land/day/wind_sct?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -78,13 +78,13 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 270,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 38.88,
+            "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",

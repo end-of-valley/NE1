@@ -42,38 +42,38 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBOS/observations/2025-06-20T14:54:00+00:00",
+    "id": "https://api.weather.gov/stations/KMVY/observations/2025-06-20T14:53:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.03,
-            42.37
+            -70.62,
+            41.4
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBOS/observations/2025-06-20T14:54:00+00:00",
+        "@id": "https://api.weather.gov/stations/KMVY/observations/2025-06-20T14:53:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 9
+            "value": 21
         },
-        "station": "https://api.weather.gov/stations/KBOS",
-        "stationId": "KBOS",
-        "stationName": "Boston, Logan International Airport",
-        "timestamp": "2025-06-20T14:54:00+00:00",
-        "rawMessage": "KBOS 201454Z 27021G37KT 10SM SCT050 24/13 A2965 RMK AO2 PK WND 28038/1415 SLP040 T02440128 51014",
-        "textDescription": "Partly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+        "station": "https://api.weather.gov/stations/KMVY",
+        "stationId": "KMVY",
+        "stationName": "Marthas Vineyard Airport",
+        "timestamp": "2025-06-20T14:53:00+00:00",
+        "rawMessage": "KMVY 201453Z 27015G30KT 10SM CLR 22/14 A2973 RMK AO2 PK WND 26030/1449 SLP066 T02220144 51016",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 24.4,
+            "value": 22.2,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 12.8,
+            "value": 14.4,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -93,12 +93,12 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100410,
+            "value": 100680,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100400,
+            "value": 100660,
             "qualityControl": "V"
         },
         "visibility": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 48.373255174627,
+            "value": 61.304763090957,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,16 +141,16 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 24.158634996226112,
+            "value": 22.07629103626389,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1520
+                    "value": null
                 },
-                "amount": "SCT"
+                "amount": "CLR"
             }
         ]
     }
