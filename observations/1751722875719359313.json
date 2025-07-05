@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KOXC/observations/2025-07-05T11:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KOXC/observations/2025-07-05T12:31:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KOXC/observations/2025-07-05T11:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KOXC/observations/2025-07-05T12:31:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,29 +61,29 @@
         "station": "https://api.weather.gov/stations/KOXC",
         "stationId": "KOXC",
         "stationName": "Oxford, Waterbury-Oxford Airport",
-        "timestamp": "2025-07-05T11:56:00+00:00",
-        "rawMessage": "KOXC 051156Z 34004KT 10SM CLR 18/16 A3019 RMK AO2 SLP232 T01830161 10183 20122 51004 $",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "timestamp": "2025-07-05T12:31:00+00:00",
+        "rawMessage": "KOXC 051231Z 03003KT 10SM FEW002 19/16 A3020 RMK AO2 $",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 18.3,
+            "value": 19,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 16.1,
+            "value": 16,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 340,
+            "value": 30,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 7.56,
+            "value": 5.4,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102240,
+            "value": 102270,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102320,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 87.00958282282,
+            "value": 82.752266062258,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,9 +148,9 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 60
                 },
-                "amount": "CLR"
+                "amount": "FEW"
             }
         ]
     }
