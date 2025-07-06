@@ -62,9 +62,9 @@
         "stationId": "KBID",
         "stationName": "Block Island State Airport",
         "timestamp": "2025-07-06T14:56:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Windy",
-        "icon": "https://api.weather.gov/icons/land/day/wind_?size=medium",
+        "rawMessage": "KBID 061456Z AUTO 23017KT 10SM CLR 24/19 A3009 RMK AO2 SLP189 T02390194 $",
+        "textDescription": "Clear and Windy",
+        "icon": "https://api.weather.gov/icons/land/day/wind_skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -144,6 +144,14 @@
             "value": 24.32857750799889,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": null
+                },
+                "amount": "CLR"
+            }
+        ]
     }
 }
