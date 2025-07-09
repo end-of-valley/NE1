@@ -62,9 +62,9 @@
         "stationId": "KBTV",
         "stationName": "Burlington, Burlington International Airport",
         "timestamp": "2025-07-09T03:55:00+00:00",
-        "rawMessage": "",
-        "textDescription": "",
-        "icon": null,
+        "rawMessage": "KBTV 090355Z 00000KT 10SM R15/P6000FT CLR 18/17 A3002 RMK SLP165 LAST T01830172",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -144,6 +144,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": null
+                },
+                "amount": "CLR"
+            }
+        ]
     }
 }
