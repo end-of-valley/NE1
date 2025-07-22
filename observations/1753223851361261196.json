@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KFSO/observations/2025-07-22T20:55:00+00:00",
+    "id": "https://api.weather.gov/stations/KPSF/observations/2025-07-22T20:54:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -73.09,
-            44.93
+            -73.29,
+            42.43
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KFSO/observations/2025-07-22T20:55:00+00:00",
+        "@id": "https://api.weather.gov/stations/KPSF/observations/2025-07-22T20:54:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 69
+            "value": 364
         },
-        "station": "https://api.weather.gov/stations/KFSO",
-        "stationId": "KFSO",
-        "stationName": "Franklin County State Airport",
-        "timestamp": "2025-07-22T20:55:00+00:00",
-        "rawMessage": "KFSO 222055Z AUTO 00000KT 10SM 24/09 A3017 RMK AO2 T02370091",
-        "textDescription": "",
-        "icon": null,
+        "station": "https://api.weather.gov/stations/KPSF",
+        "stationId": "KPSF",
+        "stationName": "Pittsfield Municipal Airport",
+        "timestamp": "2025-07-22T20:54:00+00:00",
+        "rawMessage": "KPSF 222054Z AUTO 36007KT 320V020 10SM CLR 23/06 A3016 RMK AO2 SLP198 T02280061 53001",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 23.7,
+            "value": 22.8,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 9.1,
+            "value": 6.1,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 0,
+            "value": 360,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 0,
+            "value": 12.96,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102170,
+            "value": 102130,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 101980,
+            "qualityControl": "V"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 39.459857931637,
+            "value": 33.956528453416,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,9 +141,17 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 23.155896290437223,
+            "value": 22.022198242950555,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": null
+                },
+                "amount": "CLR"
+            }
+        ]
     }
 }
