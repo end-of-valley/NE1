@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KFSO/observations/2025-07-24T11:35:00+00:00",
+    "id": "https://api.weather.gov/stations/KWVL/observations/2025-07-24T12:32:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -73.09,
-            44.93
+            -69.68,
+            44.53
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KFSO/observations/2025-07-24T11:35:00+00:00",
+        "@id": "https://api.weather.gov/stations/KWVL/observations/2025-07-24T12:32:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 69
+            "value": 101
         },
-        "station": "https://api.weather.gov/stations/KFSO",
-        "stationId": "KFSO",
-        "stationName": "Franklin County State Airport",
-        "timestamp": "2025-07-24T11:35:00+00:00",
-        "rawMessage": "KFSO 241135Z AUTO 19008KT 10SM 23/17 A3003 RMK AO2 T02270165",
-        "textDescription": "",
-        "icon": null,
+        "station": "https://api.weather.gov/stations/KWVL",
+        "stationId": "KWVL",
+        "stationName": "Waterville, Waterville Robert LaFleur Airport",
+        "timestamp": "2025-07-24T12:32:00+00:00",
+        "rawMessage": "KWVL 241232Z AUTO 20006KT 10SM SCT004 19/17 A3008 RMK AO2",
+        "textDescription": "Partly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 22.7,
+            "value": 19,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 16.5,
+            "value": 17,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 190,
+            "value": 200,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 14.76,
+            "value": 11.16,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,7 +93,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101690,
+            "value": 101860,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 68.040442057283,
+            "value": 88.185541322848,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,9 +141,17 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 22.802167098162222,
+            "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 120
+                },
+                "amount": "SCT"
+            }
+        ]
     }
 }
