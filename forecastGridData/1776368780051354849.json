@@ -1,0 +1,8 @@
+{
+    "correlationId": "3536eb05",
+    "title": "Gridpoint Does Not Exist",
+    "type": "https://api.weather.gov/problems/InvalidGridpoint",
+    "status": 404,
+    "detail": "Requested gridpoint BOX:26,54 does not exist",
+    "instance": "https://api.weather.gov/requests/3536eb05"
+}
